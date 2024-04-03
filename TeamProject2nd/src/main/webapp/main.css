@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_nav {
+    height: 50px;
+    width: 60%;
+    display: flex;
+    font-size: 15px;
+    margin: 0 auto;
+    /* 수평 가운데 정렬 */
+}
+
+.header_nav1,
+.header_nav2 {
+    width: 400px;
+    border: 1px solid #c7c7c7;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.header_nav3 {
+    width: 500px;
+    border: 1px solid #c7c7c7;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.header_nav3 {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.circle_button {
+    background-color: #01d1ca;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.header_nav3_text {
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.round-button {
+    background-color: #01d1ca;
+    width: 50px;
+    /* Make the button larger */
+    height: 50px;
+    /* Make the button larger */
+    border-radius: 50%;
+    padding: 2px;
+    color: WhiteSmoke;
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px solid white;
+    margin-left: auto;
+    /* Push the button to the right */
+    margin-right: 10px;
+    /* Add some right margin */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.round-button:hover {
+    border: 2px whitesmoke solid;
+    transform: scale(1.1)
+}
+
+.round-button:active {
+    background-color: rgb(46, 158, 255);
+}
+
+.menu-list {
+    display: none;
+    position: absolute;
+    top: 80px;
+    /* Adjust the top position */
+    right: 10px;
+    /* Adjust the right position */
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    /* Ensure the menu appears above other elements */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+div {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.productBox {
+    display: inline-block;
+    width: 22%; /* 네 개의 엘리먼트가 한 행에 들어갈 수 있도록 너비 조절 */
+    height: 500px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin: 0 1%;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+/* Add a clear property to clear the inline layout after every third box */
+.productBox:nth-child(4n+1) {
+    clear: left;
+}
+
+.productBox:hover {
+    border: 5px orange solid;
+    transform: scale(1.1);
+}
+
+.productP_name {
+    background: orange;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #008489;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #006666;
+}

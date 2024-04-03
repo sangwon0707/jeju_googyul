@@ -1,0 +1,470 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+.header {
+	background-color: white;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header_nav {
+	height: 50px;
+	width: 60%;
+	display: flex;
+	font-size: 15px;
+	margin: 0 auto;
+	/* 수평 가운데 정렬 */
+}
+
+.header_nav1,
+.header_nav2 {
+	width: 400px;
+	border: 1px solid #c7c7c7;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.header_nav3 {
+	width: 500px;
+	border: 1px solid #c7c7c7;
+	background-color: transparent;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10px;
+	cursor: pointer;
+}
+
+
+.header_nav3 {
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+.circle_button {
+	background-color: #01d1ca;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: none;
+	outline: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+.header_nav3_text {
+	font-size: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.round-button {
+	background-color: #01d1ca;
+	width: 50px;
+	/* Make the button larger */
+	height: 50px;
+	/* Make the button larger */
+	border-radius: 50%;
+	padding: 2px;
+	color: WhiteSmoke;
+	font-size: 15px;
+	cursor: pointer;
+	border: 2px solid white;
+	margin-left: auto;
+	/* Push the button to the right */
+	margin-right: 10px;
+	/* Add some right margin */
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.round-button:hover {
+	border: 2px whitesmoke solid;
+	transform: scale(1.1)
+}
+
+.round-button:active {
+	background-color: rgb(46, 158, 255);
+}
+
+.menu-list {
+	display: none;
+	position: absolute;
+	top: 80px;
+	/* Adjust the top position */
+	right: 10px;
+	/* Adjust the right position */
+	background-color: #fff;
+	padding: 5px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	z-index: 1;
+	/* Ensure the menu appears above other elements */
+}
+
+.menu-list a {
+	display: block;
+	color: #333;
+	/* Dark text color */
+	text-decoration: none;
+	margin-bottom: 10px;
+	padding: 5px;
+	background-color: #f7f7f7;
+	/* Light gray background */
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+	/* Smooth transition effect */
+}
+
+.menu-list a:hover {
+	background-color: #01d1ca;
+	/* Hover color - Airbnb turquoise */
+	color: #fff;
+	/* Text color on hover */
+}
+
+.nav-list {
+	display: none;
+	position: absolute;
+	top: 80px;
+	/* Adjust the top position */
+	right: 10px;
+	/* Adjust the right position */
+	background-color: #fff;
+	padding: 5px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	z-index: 1;
+	/* Ensure the menu appears above other elements */
+}
+
+.nav-list a {
+	display: block;
+	color: #333;
+	/* Dark text color */
+	text-decoration: none;
+	margin-bottom: 10px;
+	padding: 5px;
+	background-color: #f7f7f7;
+	/* Light gray background */
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+	/* Smooth transition effect */
+}
+
+.nav-list a:hover {
+	background-color: #01d1ca;
+	/* Hover color - Airbnb turquoise */
+	color: #fff;
+	/* Text color on hover */
+}
+
+
+#nav_bar {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#nav_bar tr {
+	height: 50px;
+	border: 1px solid #ccc;
+	/* Add border to the table row */
+}
+
+#nav_bar td {
+	text-align: center;
+	border: 1px solid #ccc;
+	/* Add border to the table cells */
+}
+
+#circleLeft {
+	width: 25px;
+	/* Adjust the width as needed */
+	height: 50px;
+	/* Set the height to match other rows */
+	border: 1px solid #ccc;
+	/* Add border style */
+	border-radius: 25px 0 0 25px;
+	/* Half-circle border-radius */
+	background-color: #01d1ca;
+	overflow: hidden;
+	/* Hide the right part */
+}
+
+#nav_Bar {
+	border-collapse: collapse;
+}
+
+.nav_detail {
+	text-align: center;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+#circleRight {
+	width: 25px;
+	height: 50px;
+	border: 1px solid #ccc;
+	border-radius: 0 25px 25px 0;
+	background-color:#01d1ca;
+}
+
+.nav_blank {
+	width: 25px;
+	height: 50px;
+	border: 1px solid #ccc;
+	border-radius: 0 25px 25px 0;
+	background-color:#01d1ca;
+}
+
+#nav_Bar {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+	/* Adjust the top margin as needed */
+}
+
+#nav_Bar tr {
+	height: 50px;
+	border: 1px solid #ccc;
+	/* Add border to the table row */
+}
+
+#nav_Bar td {
+	text-align: center;
+	border: 1px solid #ccc;
+	/* Add border to the table cells */
+}
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.bar {
+	position: relative;
+	margin: auto;
+	width: 840px;
+	background: white;
+	box-shadow: 0 0 5px hsl(0 0% 78%);
+	height: 55px;
+	border-radius: 100vw;
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.6rem;
+}
+
+.bar div {
+	border-radius: inherit;
+	padding: 0.8rem 1.5rem;
+	transition: background 250ms ease;
+}
+
+.bar div:hover {
+	background: hsl(0 0% 94%);
+}
+
+#bar {
+	display: flex;
+	flex-wrap: wrap;
+	display: none;
+	position: absolute;
+	top: 100%;
+	/* Position it below .bar */
+	left: 50%;
+	/* Center it horizontally */
+	transform: translateX(-50%);
+	background-color: #fff;
+	padding: 5px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	z-index: 1;
+	border: 1px solid lightgrey
+}
+
+.image-container {
+	display: flex;
+	gap: 2px;
+	/* Adjust the gap as needed */
+}
+
+.input-container {
+	flex: 1;
+	/* Distribute available space equally among input containers */
+	margin-right: 10px;
+	/* Adjust the margin as needed */
+}
+
+.image-container a {
+    text-decoration: none; /* Remove underline from links */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.location {
+	width: 34%;
+}
+
+.check-in,
+.check-out,
+.guests {
+	width: 22%;
+}
+
+input[type="text"] {
+	background: none;
+	border: none;
+	padding: 0.2rem 0 0 0;
+}
+
+input[type="text"]:focus {
+	outline: none;
+}
+
+::placeholder {
+	font-size: 0.75rem;
+}
+
+.guests {
+	position: relative;
+}
+
+.guests span {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+	background: #01d1ca;
+	color: white;
+	font-size: 0.8rem;
+	padding: 0.7rem;
+	border-radius: 50%;
+}
+
+.guests span:hover {
+    background-color: orange;
+}
+
+/* Add this rule to target the icon inside the span when hovered */
+.guests span:hover .fa-solid {
+    color: #01d1ca; /* Adjust the color as needed */
+}
+
+.bar>div {
+	position: relative;
+}
+
+.bar>div::before {
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 1px;
+	height: 55%;
+	background: hsl(0 0% 90%);
+}
+
+.bar>div:nth-of-type(1)::before {
+	background: transparent;
+}
+
+.bar>div:hover::before {
+	background: transparent;
+}
+
+.slider-container {
+	margin: 2em;
+}
+
+.ui-slider-horizontal {
+	height: .5em;
+}
+
+.ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 1.6em;
+	height: 1.6em;
+	cursor: pointer;
+	outline: none;
+	background: #FFF;
+	border-radius: 50%;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
+	height: 100%;
+	background: #01d1ca;	
+}
+
+.price-range-labels {
+	display: flex;
+	justify-content: space-between;
+	margin: 1em 0;
+}
+
+.price-range-labels input {
+	border: 1px solid #ccc;
+	padding: 0.5em;
+	width: 6em;
+	text-align: center;
+}
+
+.number-input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#decrement,
+#increment {
+    background-color: #01d1ca; /* 슬라이더의 색과 유사하게 조정 */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#searchSubmit{
+	background-color: #01d1ca; /* 슬라이더의 색과 유사하게 조정 */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+        cursor: pointer;
+
+}
+
+#quantity {
+    width: 40px;
+    text-align: center;
+    margin: 0 10px;
+    border: 1px solid #01d1ca; /* 슬라이더의 색과 유사하게 조정 */
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.image-container a.selected {
+    border: 5px solid rgb(255, 198, 22);
+    transform: scale(1.1);
+}
