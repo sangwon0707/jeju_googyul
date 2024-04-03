@@ -5,7 +5,6 @@
 &nbsp;
 
 <h1 align="center"> 👩🏻‍💻 제주도 숙박 예약 프로젝트 (구귤) 🛢️</h1>
-<img width="500" alt="ppt 1장" src="https://github.com/sangwon0707/OracleCLI_javaGUI_project/blob/main/OracleCLI_javaGUI_project_%EA%B0%9C%EB%85%90%EC%84%A4%EA%B3%84.jpg"> 
 
 [🔗 주제선정](https://github.com/sangwon0707/jeju_googyul/blob/main/2%E1%84%8E%E1%85%A1_%E1%84%8C%E1%85%AE%E1%84%8C%E1%85%A6%E1%84%89%E1%85%A5%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%BC.pdf)<br>
 [🔗 최종 발표](https://github.com/sangwon0707/jeju_googyul/blob/main/2%E1%84%8E%E1%85%A1_%E1%84%8E%E1%85%AC%E1%84%8C%E1%85%A9%E1%86%BC_%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD.pdf) <br>
